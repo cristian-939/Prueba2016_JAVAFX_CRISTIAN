@@ -10,7 +10,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-
+/**
+ * establece un constructor y lo guarda Inicializa con start y
+ * recibe la informacion de Stage
+ * 
+ * @author Cristian
+ * 
+ */
 public class MainFX extends Application {
 	private Stage primaryStage;
 	private AnchorPane rootLayout;
@@ -19,13 +25,7 @@ public class MainFX extends Application {
 		launch(args);
 	}
 
-	/**
-	 * @author Cristian
-	 * @param primaryStage
-	 * establece un constructor y lo guarda Inicializa con start y
-	 * recibe la informacion de Stage
-	 * here
-	 */
+
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		this.primaryStage = primaryStage;
@@ -35,8 +35,6 @@ public class MainFX extends Application {
 	}
 
 	/**
-	 * @author Cristian
-	 * @serialData v.1.0
 	 * Inicia la vista en la cual mete valores y se establece
 	 *         una conexion con el css
 	 *         

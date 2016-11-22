@@ -8,7 +8,10 @@ import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
+/**
+ * @author Cristian
+ * 
+ */
 public class ControlFX {
 
 	// not using yet
@@ -31,7 +34,7 @@ public class ControlFX {
 	}
 
 	/**
-	 * @author Cristian Este metodo lo que hace es enseñar la Send.fxml
+	 * Este metodo lo que hace es enseñar la Send.fxml
 	 */
 	public void sendStage() {
 		try {
@@ -41,7 +44,7 @@ public class ControlFX {
 			loader.setLocation(MainFX.class.getResource("../vista/Send.fxml"));
 			AnchorPane page = (AnchorPane) loader.load();
 			Stage sendStage = new Stage();
-			sendStage.setTitle("PaginaBOMBA");
+			sendStage.setTitle("Pagina Formulario");
 			Scene scene = new Scene(page);
 			sendStage.setScene(scene);
 
@@ -53,7 +56,7 @@ public class ControlFX {
 	}
 
 	/**
-	 * @author Cristian Este metodo anda Send.fxml para verla
+	 * Este metodo anda Send.fxml para verla
 	 * @see sendStage
 	 */
 	@FXML
