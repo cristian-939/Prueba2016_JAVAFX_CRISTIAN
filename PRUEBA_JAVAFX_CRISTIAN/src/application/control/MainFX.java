@@ -24,6 +24,7 @@ public class MainFX extends Application {
 	 * @param primaryStage
 	 * establece un constructor y lo guarda Inicializa con start y
 	 * recibe la informacion de Stage
+	 * here
 	 */
 	@Override
 	public void start(Stage primaryStage) throws Exception {
